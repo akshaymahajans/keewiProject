@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<title>Keewi Dashboard</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+        <!--  Paper Dashboard core CSS    -->
+    <link href="assets/css/paper-dashboard.css" rel="stylesheet"/>
+
+   
+    <!--  Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="sidebar" data-background-color="black" data-active-color="primary">
+    <!--
+		Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
+		Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+	-->
+
+    	<div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="#" class="simple-text">
+                    Keewi Solutions
+                </a>
+            </div>
+
+            <ul class="nav">
+                <li>
+                    <a href="dashboard.html">
+                        <i class="ti-panel"></i>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+               <li class="active">
+                    <a href="table.html">
+                        <i class="ti-view-list-alt"></i>
+                        <p>Data</p>
+                    </a>
+                    </li>
+                  
+           </ul>
+    	</div>
+    </div>
+
+    <div class="main-panel">
+		<nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar bar1"></span>
+                        <span class="icon-bar bar2"></span>
+                        <span class="icon-bar bar3"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Table List</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="ti-panel"></i>
+								<p>Stats</p>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="ti-bell"></i>
+                                    <p class="notification">5</p>
+									<p>Notifications</p>
+									<b class="caret"></b>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Notification 1</a></li>
+                                <li><a href="#">Notification 2</a></li>
+                                <li><a href="#">Notification 3</a></li>
+                                <li><a href="#">Notification 4</a></li>
+                                <li><a href="#">Another notification</a></li>
+                              </ul>
+                        </li>
+						<li>
+                            <a href="#">
+								<i class="ti-settings"></i>
+								<p>Settings</p>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Striped Table</h4>
+                                <p class="category">Here is a subtitle for this table</p>
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <th>ID</th>
+                                    	<th>Name</th>
+                                    	<th>Salary</th>
+                                    	<th>Country</th>
+                                    	<th>City</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                        	<td>1</td>
+                                        	<td>Dakota Rice</td>
+                                        	<td>$36,738</td>
+                                        	<td>Niger</td>
+                                        	<td>Oud-Turnhout</td>
+                                        </tr>
+                                        <tr>
+                                        	<td>2</td>
+                                        	<td>Minerva Hooper</td>
+                                        	<td>$23,789</td>
+                                        	<td>Curaçao</td>
+                                        	<td>Sinaai-Waas</td>
+                                        </tr>
+                                        <tr>
+                                        	<td>3</td>
+                                        	<td>Sage Rodriguez</td>
+                                        	<td>$56,142</td>
+                                        	<td>Netherlands</td>
+                                        	<td>Baileux</td>
+                                        </tr>
+                                        <tr>
+                                        	<td>4</td>
+                                        	<td>Philip Chaney</td>
+                                        	<td>$38,735</td>
+                                        	<td>Korea, South</td>
+                                        	<td>Overland Park</td>
+                                        </tr>
+                                        <tr>
+                                        	<td>5</td>
+                                        	<td>Doris Greene</td>
+                                        	<td>$63,542</td>
+                                        	<td>Malawi</td>
+                                        	<td>Feldkirchen in Kärnten</td>
+                                        </tr>
+                                        <tr>
+                                        	<td>6</td>
+                                        	<td>Mason Porter</td>
+                                        	<td>$78,615</td>
+                                        	<td>Chile</td>
+                                        	<td>Gloucester</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-12">
+                        <div class="card card-plain">
+                            <div class="header">
+                                <h3 class="title">kWh Usage in Sensor 522</h3>
+                               
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <th>Data Item 1</th>
+                                    	<th>Data Item 2</th>
+                                    	<th>Data Item 3</th>
+                                    	<th>Data Item 4</th>
+                                    	<th>Data Item 5</th>
+                                    	<th>Data Item 6</th>
+                                    	<th>Data Item 7</th>
+                                    	<th>Data Item 8</th>
+                                    	<th>Data Item 9</th>
+                                    	<th>Data Item 10</th>
+                                    	<th>Data Item 11</th>
+
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>0.00695792</td>
+<td>0.02679528</td>
+<td>0.0278851</td>
+<td>0.02913355</td>
+<td>0.0446269</td>
+<td>0.04733726</td>
+<td>0.04298157</td>
+<td>0.02840619</td>
+<td>0.02972752</td>
+<td>0.02777149</td>
+<td>0.02733621</td>
+</tr>
+</tr>
+<td>0.0296111</td>
+<td>0.02991704</td>
+<td>0.03904648</td>
+<td>0.02715357</td>
+<td>0.02683683</td>
+<td>0.02692103</td>
+<td>0.02692842</td>
+<td>0.02682972</td>
+<td>0.02686195</td>
+<td>0.03241221</td>
+<td>0.02836057</td>
+</tr>
+<tr>
+<td>0.02787927</td>
+<td>0.02703854</td>
+<td>0.02698324</td>
+<td>0.02862332</td>
+<td>0.02754852</td>
+<td>0.02816678</td>
+<td>0.02757864</td>
+<td>0.02981536</td>
+<td>0.02726173</td>
+<td>0.02726205</td>
+<td>0.02701576</td>
+</tr>
+<tr>
+<td>0.01519709</td>
+<td>0.03004842</td>
+<td>0.02709447</td>
+<td>0.027059</td>
+<td>0.02702317</td>
+<td>0.02710152</td>
+<td>0.026788</td>
+<td>0.02699197</td>
+<td>0.02684705</td>
+<td>0.02677661</td>
+<td>0.0267828</td>
+</tr>
+<tr>
+<td>0.02957787</td>
+<td>0.02788191</td>
+<td>0.02708975</td>
+<td>0.02664349</td>
+<td>0.02684532</td>
+<td>0.03713759</td>
+<td>0.05369568</td>
+<td>0.06984383</td>
+<td>0.0473654</td>
+<td>0.04260637</td>
+<td>0.02684793</td>
+</tr>
+<tr>
+<td>0.02707358</td>
+<td>0.02694487</td>
+<td>0.02696226</td>
+<td>0.02725594</td>
+<td>0.02699281</td>
+<td>0.02767644</td>
+<td>0</td>
+<td>0</td>
+<td>0.00836201</td>
+<td>0.0</td>
+<td>2737141</td>
+</tr>
+<tr>
+<td>0.02767523</td>
+<td>0.0274426</td>
+<td>0.0303953</td>
+<td>0.02740275</td>
+<td>0.0299974</td>
+<td>0.02733957</td>
+<td>0.02726117</td>
+<td>0.02742258</td>
+<td>0.02711365</td>
+<td>0.02708747</td>
+<td>0.0273653</td>
+</tr>
+<tr>
+<td>0.02868434</td>
+<td>0.02777844</td>
+<td>0.02735563</td>
+<td>0.02755548</td>
+<td>0.02754489</td>
+<td>0.02731658</td>
+<td>0.02734882</td>
+<td>0.0273188</td>
+<td>0.02744443</td>
+<td>0.02781544</td>
+<td>0.02713378</td>
+</tr>
+<tr>
+<td>0.02721938</td>
+<td>0.02680686</td>
+<td>0.0290539</td>
+<td>0.02710614</td>
+<td>0.03038226</td>
+<td>0.02782565</td>
+<td>0.0278723</td>
+<td>0.02728641</td>
+<td>0.02793218</td>
+<td>0.02721478</td>
+</tr>
+<tr>
+<td>0.02709469</td>
+<td>0.02820753</td>
+<td>0.02761032</td>
+<td>0.02912952</td>
+<td>0.02899178</td>
+<td>0.02737818</td>
+<td>0.02785798</td>
+<td>0.02725268</td>
+<td>0.0276084</td>
+<td>0.0289512</td>
+</tr>
+<tr>
+<td>0.02869111</td>
+<td>0.02752335</td>
+<td>0.02816365</td>
+<td>0.02730238</td>
+<td>0.02749915</td>
+<td>0.02857923</td>
+<td>0.02894807</td>
+<td>0.02768658</td>
+<td>0.02984611</td>
+<td>0.0294188</td>
+<td>0.03528092</td>
+</tr>
+<tr>
+<td>0.02728433</td>
+<td>0.02714923</td>
+<td>0.02678242</td>
+<td>0.02747036</td>
+<td>0.02795645</td>
+<td>0.02680984</td>
+<td>0.02836147</td>
+<td>0.02710103</td>
+<td>0.02736133</td>
+<td>0.02748697</td>
+</tr>
+<tr>
+<td>0.02733614</td>
+<td>0.02989859</td>
+<td>0.02851334</td>
+<td>0.02741015</td>
+<td>0.02897311</td>
+<td>0.02850419</td>
+<td>0.02714608</td>
+<td>0.02729697</td>
+<td>0.02662097</td>
+<td>0.0269904</td>
+<td>0.02684208</td>
+</tr>
+<tr>
+<td>0.02681881</td>
+<td>0.03025398</td>
+<td>0.03105923</td>
+<td>0.02679937</td>
+<td>0.02664143</td>
+</tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <nav class="pull-left">
+                    <ul>
+
+                        <li>
+                            <a href="http://www.creative-tim.com">
+                                Creative Tim
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://blog.creative-tim.com">
+                               Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.creative-tim.com/license">
+                                Licenses
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+				<div class="copyright pull-right">
+                    &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by <a href="http://www.creative-tim.com">Creative Tim</a>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+</div>
+
+
+</body>
+
+    <!--   Core JS Files   -->
+    <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+	<!--  Checkbox, Radio & Switch Plugins -->
+	<script src="assets/js/bootstrap-checkbox-radio.js"></script>
+
+	<!--  Charts Plugin -->
+	<script src="assets/js/chartist.min.js"></script>
+
+    <!--  Notifications Plugin    -->
+    <script src="assets/js/bootstrap-notify.js"></script>
+
+    <!--  Google Maps Plugin    -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <!-- Paper Dashboard Core javascript and methods for Demo purpose -->
+	<script src="assets/js/paper-dashboard.js"></script>
+
+	<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+	<script src="assets/js/demo.js"></script>
+
+
+</html>
