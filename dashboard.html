@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<title>Keewi Dashboard</title>
+
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+<meta name="viewport" content="width=device-width" />
+
+
+<!-- Bootstrap core CSS     -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+ <script src="https://www.google.com/jsapi"></script>
+
+
+<!--  Paper Dashboard core CSS    -->
+<link href="assets/css/paper-dashboard.css" rel="stylesheet"/>
+
+
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+ <script src="./js/jquery-csv.js"></script>
+
+
+<!--  Fonts and icons     -->
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+
+<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+<link href="assets/css/themify-icons.css" rel="stylesheet">
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+           google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+['Month', '522', '523'],
+['March', 0.00695792,0.01082903],
+['March',0.02679528,0.05135569],
+['March',0.0278851,0.05063556],
+['March',0.02913355,0.05125399],
+['March',0.0446269,0.05183208],
+['March', 0.04733726,0.05075145],
+['March', 0.04298157,0.05068579],
+['March',0.02840619,0.050952],
+['March',0.02972752,0.05070624],
+['March',0.02777149,0.05229694],
+['March',0.02733621,0.05240922],
+['March',0.0296111,0.05295921],
+['March',0.02991704,0.05294325],
+['March',0.03904648,0.05262777],
+['March',0.02715357,0.05234018],
+['March',0.02683683,0.0531101],
+['March',0.02692103,0.05305513],
+['March',0.02692842,0.05292959],
+['March',0.02682972,0.0528632],
+['March',0.02686195,0.0532616],
+['March',0.03241221,0.05331766],
+['March',0.02836057,0.05337177],
+['March',0.02787927,0.05348035],
+['March',0.02703854,0.053132],
+['March',0.02698324,0.05292452],
+['March',0.02862332,0.05317665],
+['March',0.02754852,0.05357665],
+['March',0.02816678,0.05263615],
+['March',0.02757864,0.05266593],
+['March',0.02981536,0.05263615],
+['March',0.02726173,0.05365778],
+['March',0.02726205,0.05303821],
+['March',0.02701576,0.05340723],
+['March',0.01519709,0.03009357],
+['March',0.03004842,0.0531354],
+['March',0.02709447,0.05302093],
+['March',0.027059,0.05247694],
+['March',0.02702317,0.05229769],
+['March',0.02710152,0.05220449],
+['March',0.026788,0.05237009],
+['March',0.02699197,0.05280965],
+['March',0.02684705,0.0529965],
+['March',0.02677661,0.05312039],
+['March',0.0267828,0.05296123],
+['March',0.02957787,0.0530372],
+['March',0.02788191,0.05332909],
+['March',0.02708975,0.05307536],
+['March',0.02664349,0.0530514],
+['March',0.02684532,0.05273565],
+['March',0.03713759,0.06620611],
+['March',0.05369568,0.10548743],
+['March',0.06984383,0.10556953],
+['March',0.0473654,0.05268153],
+['March',0.04260637,0.05244912],
+['March',0.02684793,0.0524388],
+['March',0.02707358,0.05229415],
+['March',0.02694487,0.05234447],
+['March',0.02696226,0.05249806],
+['March',0.02725594,0.05325738],
+['March',0.02699281,0.0],
+['March',0.02767644,0.05300917],
+['March',0,0.0528632],
+['March',0,0],
+['March',0.00836201,0],
+['March',0.0,0.01576854],
+['March',2737141,0.05197132],
+['March',0.02767523,0.05260824],
+['March',0.0274426,0.05264532],
+['March',0.0303953,0.05256828],
+['March',0.02740275,0.05281058],
+['March',0.0299974,0.05265041],
+['March',0.02733957,0.05220195],
+['March',0.02726117,0.05207814],
+['March',0.02742258,0.05166692],
+['March',0.02711365,0.05143346],
+['March',0.02708747,0.05157919],
+['March',0.0273653,0.05193105],
+['March',0.02868434,0.05169566],
+['March',0.02777844,0.05089314],
+['March',0.02735563,0.05104422],
+['March',0.02755548,0.05173853],
+['March',0.02754489,0.05230635],
+['March',0.02731658,0.05152362],
+['March',0.02734882,0.05181452],
+['March',0.0273188,0.05127126],
+['March',0.02744443,0.05161794],
+['March',0.02781544,0.05118732],
+['March',0.02713378,0.05141676],
+['March',0.02721938,0.05135952],
+['March',0.02680686,0.0502887],
+['March',0.0290539,0.05119566],
+['March',0.02710614,0.05155479],
+['March',0.03038226,0.05216694],
+['March',0.02782565,0.0524414],
+['March',0.0278723,0.05212535],
+['March',0.02728641,0.05163376],
+['March',0.02793218,0.05125626],
+['March',0.02721478,0.05183512],
+['March',0.02709469,0.05141052],
+['March',0.02820753,0.05134386],
+['March',0.02761032,0.05139228],
+['March',0.02912952,0.05180274],
+['March',0.02899178,0.05139397],
+['March',0.02737818,0.05173434],
+['March',0.02785798,0.05184266],
+['March',0.02725268,0.05186338],
+['March',0.0276084,0.05268704],
+['March',0.0289512,0.05211996],
+['March',0.02869111,0.05232588],
+['March',0.02752335,0.05144718],
+['March',0.02816365,0.05159096],
+['March',0.02730238,0.05141946],
+['March',0.02749915,0.05113254],
+['March',0.02857923,0.05083758],
+['March',0.02894807,0.05218575],
+['March',0.02768658,0.0523295],
+['March',0.02984611,0.05162939],
+['March',0.0294188,0.05107518],
+['March',0.03528092,0.05363978],
+['March',0.02728433,0.05386697],
+['March',0.02714923,0.05351001],
+['March',0.02678242,0.05236473],
+['March',0.02747036,0.05363817],
+['March',0.02795645,0.05323346],
+['March',0.02680984,0.05140498],
+['March',0.02836147,0.05348173],
+['March',0.02710103,0.05198514],
+['March',0.02736133,0.05329111],
+['March',0.02748697,0.05233141],
+['March',0.02733614,0.05314671],
+['March',0.02989859,0.052088],
+['March',0.02851334,0.05232676],
+['March',0.02741015,0.0537602],
+['March',0.02897311,0.05255602],
+['March',0.02850419,0.05338873],
+['March',0.02714608,0.0534611],
+['March',0.02729697,0.05317064],
+['March',0.02662097,0.05222654],
+['March',0.0269904,0.05205328],
+['March',0.02684208,0.05215012],
+['March',0.02681881,0.05205569],
+['March',0.03025398,0.05165508],
+['March',0.03105923,0.05152121],
+['March',0.02679937,0.05326766],
+['March',0.02664143,0.05360137]
+      ]);
+
+      var options = {
+            title: 'Difference in kWh use for 522 and 523',
+         curveType: 'function',
+         legend: { position: 'bottom'}
+
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+      chart.draw(data, options);
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+<div class="wrapper">
+<div class="sidebar" data-background-color="black" data-active-color="primary">
+<!--
+	Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
+	Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+-->
+
+	<div class="sidebar-wrapper">
+        <div class="logo">
+            <a href="#" class="simple-text">
+                Keewi Solutions
+            </a>
+        </div>
+
+        <ul class="nav">
+            <li class="active">
+                <a href="dashboard.html">
+                    <i class="ti-panel"></i>
+                    <p>Dashboard</p>
+                </a>
+            </li>
+              <li>
+                <a href="table.html">
+                    <i class="ti-view-list-alt"></i>
+                    <p>Data</p>
+                </a>
+                </li>
+       </ul>
+	</div>
+</div>
+
+<div class="main-panel">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar bar1"></span>
+                    <span class="icon-bar bar2"></span>
+                    <span class="icon-bar bar3"></span>
+                </button>
+                <a class="navbar-brand" href="#">Dashboard</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="ti-panel"></i>
+							<p>Stats</p>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="ti-bell"></i>
+                                <p class="notification">5</p>
+								<p>Notifications</p>
+								<b class="caret"></b>
+                          </a>
+                         
+                    </li>
+					<li>
+                        <a href="#">
+							<i class="ti-settings"></i>
+							<p>Settings</p>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <div class="content">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <div class="icon-big icon-warning text-center">
+                                        <i class="ti-server"></i>
+                                    </div>
+                                </div>
+                                <div class="col-xs-7">
+                                    <div class="numbers">
+                                        <p>Current Savings</p>
+                                        $107.76
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <hr />
+                                <div class="stats">
+                                    <i class="ti-reload"></i> Updated now
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <div class="content">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <div class="icon-big icon-success text-center">
+                                        <i class="ti-wallet"></i>
+                                    </div>
+                                </div>
+                                <div class="col-xs-7">
+                                    <div class="numbers">
+                                        <p>Date</p>
+                                        03/6/17
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <hr />
+                                <div class="stats">
+                                    <i class="ti-calendar"></i> Today
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <div class="content">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <div class="icon-big icon-danger text-center">
+                                        <i class="ti-pulse"></i>
+                                    </div>
+                                </div>
+                                <div class="col-xs-7">
+                                    <div class="numbers">
+                                        <p>Current Power Usage</p>
+                                        53.3 kW
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <hr />
+                                <div class="stats">
+                                    <i class="ti-timer"></i> In the last hour
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card">
+                        <div class="content">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <div class="icon-big icon-info text-center">
+                                        <i class="ti-twitter-alt"></i>
+                                    </div>
+                                </div>
+                                <div class="col-xs-7">
+                                    <div class="numbers">
+                                        <p>Cumulative Consumption</p>
+                                        1.74 kWh
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <hr />
+                                <div class="stats">
+                                    <i class="ti-reload"></i> Updated now
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="header">
+                            <h4 class="title">Current Consumption (in kW)</h4>
+                            <p class="category">24 Hours performance</p>
+                        </div>
+                        <div class="content">
+                            <div id="chartHours" class="ct-chart"></div>
+                            <div class="footer">
+                                <div class="chart-legend">
+                                    <i class="fa fa-circle text-info"></i> Open
+                                    <i class="fa fa-circle text-danger"></i> Click
+                                    <i class="fa fa-circle text-warning"></i> Click Second Time
+                                </div>
+                                <hr>
+                                <div class="stats">
+                                    <i class="ti-reload"></i> Updated 3 minutes ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card" id="curve_chart">
+                       
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card ">
+                        <div class="header">
+                            <h4 class="title">2015 Energy Consumption (in kW)</h4>
+                            <p class="category">Palo Alto & La Jolla Buildings</p>
+                        </div>
+                        <div class="content">
+                            <div id="chartActivity" class="ct-chart"></div>
+
+                            <div class="footer">
+                                <div class="chart-legend">
+                                    <i class="fa fa-circle text-info"></i> Palo Alto 
+                                    <i class="fa fa-circle text-warning"></i> La Jolla 
+                                </div>
+                                <hr>
+                                <div class="stats">
+                                    <i class="ti-check"></i> Data information certified
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   
+</div>
+</div>
+
+
+</body>
+
+<!--   Core JS Files   -->
+<script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+<!--  Checkbox, Radio & Switch Plugins -->
+<script src="assets/js/bootstrap-checkbox-radio.js"></script>
+
+<!--  Charts Plugin -->
+<script src="assets/js/chartist.min.js"></script>
+
+<!--  Notifications Plugin    -->
+<script src="assets/js/bootstrap-notify.js"></script>
+
+<!--  Google Maps Plugin    -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<!-- Paper Dashboard Core javascript and methods for Demo purpose -->
+<script src="assets/js/paper-dashboard.js"></script>
+
+<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+<script src="assets/js/demo.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+
+    	demo.initChartist();
+	});
+</script>
+
+</html>
